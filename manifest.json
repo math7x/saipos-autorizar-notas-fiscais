@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "SAIPOS — Autorizar notas fiscais",
+  "version": "1.1.0",
+  "description": "Gera os documentos fiscais pendentes no relatório de Cupons Gerados e trata notas em contingência.",
+  "action": {
+    "default_title": "Abrir ou fechar o painel de notas fiscais"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://conta.saipos.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

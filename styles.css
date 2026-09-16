@@ -1,0 +1,85 @@
+#saipos-fiscal-assistant {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 2147483647;
+  width: 330px;
+  max-height: 440px;
+  box-sizing: border-box;
+  padding: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  border-radius: 10px;
+  background: #ffffff;
+  color: #263238;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.24);
+  font: 13px/1.4 Arial, sans-serif;
+}
+
+#saipos-fiscal-assistant[hidden] {
+  display: none !important;
+}
+
+.saipos-fiscal-title {
+  margin-bottom: 4px;
+  color: #007c91;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+#saipos-fiscal-status {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+#saipos-fiscal-counters {
+  margin-bottom: 10px;
+  color: #607d8b;
+  font-size: 12px;
+}
+
+.saipos-fiscal-actions {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+#saipos-fiscal-assistant button {
+  flex: 1;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 5px;
+  background: #00a8c6;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+#saipos-fiscal-assistant button:last-child {
+  background: #607d8b;
+}
+
+#saipos-fiscal-assistant button:disabled {
+  cursor: default;
+  opacity: 0.45;
+}
+
+#saipos-fiscal-log {
+  max-height: 240px;
+  overflow: auto;
+  padding-top: 8px;
+  border-top: 1px solid #eceff1;
+  font-size: 12px;
+}
+
+#saipos-fiscal-log > div {
+  padding: 4px 0;
+  border-bottom: 1px solid #f4f5f6;
+}
+
+.saipos-fiscal-log-success {
+  color: #2e7d32;
+}
+
+.saipos-fiscal-log-error {
+  color: #c62828;
+}
