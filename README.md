@@ -2,6 +2,12 @@
 
 Extensão local para Chrome e Brave que processa as notas com status **Não enviado** na tela **Cupons Gerados**.
 
+## Visão técnica
+
+O processamento é sequencial e tolerante a falhas: cada documento é validado individualmente, erros são registrados e o lote continua sem perder o progresso. O usuário pode interromper a execução a qualquer momento.
+
+Tecnologias principais: JavaScript, HTML, CSS e automação de interface no navegador.
+
 ## O que ela faz
 
 - abre cada nota ainda não enviada;
