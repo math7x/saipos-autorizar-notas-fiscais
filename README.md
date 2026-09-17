@@ -55,3 +55,7 @@ As notas puladas ficam registradas em vermelho no painel. Para tentar novamente 
 - A extensão funciona apenas em `https://conta.saipos.com/`.
 - Ela não altera itens, valores, clientes, pagamentos ou observações da venda.
 - Como depende da interface atual do SAIPOS, uma mudança futura no site pode exigir uma atualização da extensão.
+
+## Autoria
+
+Desenvolvido por [math7x](https://github.com/math7x).

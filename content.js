@@ -447,6 +447,7 @@
         <button id="saipos-fiscal-stop" type="button" disabled>Parar</button>
       </div>
       <div id="saipos-fiscal-log" aria-live="polite"></div>
+      <div class="saipos-fiscal-author">Desenvolvido por math7x</div>
     `;
     document.body.appendChild(panel);
     panel.querySelector("#saipos-fiscal-start").addEventListener("click", run);

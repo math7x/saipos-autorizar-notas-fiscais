@@ -83,3 +83,10 @@
 .saipos-fiscal-log-error {
   color: #c62828;
 }
+
+.saipos-fiscal-author {
+  margin-top: 10px;
+  color: #90a4ae;
+  font-size: 10px;
+  text-align: center;
+}
