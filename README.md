@@ -2,6 +2,14 @@
 
 Extensão local para Chrome e Brave que processa as notas com status **Não enviado** na tela **Cupons Gerados**.
 
+## Problema que resolve
+
+Uma fila de notas não enviadas exige abrir cada venda, gerar o documento, conferir mensagens e tratar separadamente os casos em contingência. Além de demorado, esse fluxo manual facilita que uma nota seja esquecida ou que todo o trabalho pare por causa de um único erro.
+
+## Solução desenvolvida
+
+A extensão executa o processo nota por nota, confirma o resultado antes de avançar e registra as falhas sem interromper o restante da fila. Ela também reconhece o fluxo de contingência e permite parar a execução a qualquer momento. O resultado é uma rotina mais rápida, acompanhável e resistente a erros isolados.
+
 ## Visão técnica
 
 O processamento é sequencial e tolerante a falhas: cada documento é validado individualmente, erros são registrados e o lote continua sem perder o progresso. O usuário pode interromper a execução a qualquer momento.
