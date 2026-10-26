@@ -1,0 +1,3 @@
+﻿Extensão - autorizar notas fiscais pendentes na Saipos
+
+Percorre notas não enviadas no relatório Cupons Gerados da Saipos, gera ou envia documentos em contingência e confirma o status autorizado. Registra erros por nota e permite interromper o lote.
